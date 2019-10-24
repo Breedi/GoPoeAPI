@@ -4,7 +4,7 @@ This is a API fetcher written in GO to get the current Trade API Data of Path of
 
 ## How does it work?
 
-First of all. The API wont give you all available stashes at once. Just around 600. If you fetch your data the first time or with the default value 0 you will get a random NextChangeID. Inside your TradeData will be the ChangeID for the next "page" of data and your given stashen. You will be able to go through it and use it for your projects.
+First of all. The API wont give you all available stashes at once. Just around 600. If you fetch your data the first time or with the default value 0 you will get a random NextChangeID. Inside your TradeData will be the ChangeID for the next "page" of data and your given stashes. You will be able to go through it and use it for your projects.
 
 ## Data Structure
 
